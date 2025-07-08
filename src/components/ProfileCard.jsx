@@ -4,7 +4,7 @@ import profileImg from "../assets/images/user.png";
 const ProfileCard = () => {
   return (
     <div className="flex justify-center items-center h-[300px] bg-[url(/src/assets/images/bg.png)] bg-cover bg-center bg-no-repeat">
-      <div className="bg-white shadow-xl rounded-xl p-3 w-full max-w-4xl mt-80 h-[250px]">
+      <div className="bg-white shadow-xl rounded-xl p-3 w-full max-w-5xl mt-80 h-[250px]">
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div className="flex items-center gap-4">
             <img
