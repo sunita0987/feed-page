@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaHeart, FaComment, FaShareAlt } from "react-icons/fa";
 
-const Black = () => {
+const Color = () => {
   const [likes, setLikes] = useState(10);
   const [comments, setComments] = useState(20);
   return (
@@ -33,4 +33,4 @@ const Black = () => {
     </div>
   );
 };
-export default  Black;
+export default  Color;

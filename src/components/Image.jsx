@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaHeart, FaComment, FaShareAlt } from "react-icons/fa";
 
-const Like = () => {
+const Image = () => {
   const [likes, setLikes] = useState(10);
   const [comments, setComments] = useState(20);
   return (
@@ -33,4 +33,4 @@ const Like = () => {
     </div>
   );
 };
-export default Like;
+export default Image;

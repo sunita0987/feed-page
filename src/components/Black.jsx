@@ -8,7 +8,7 @@ const Black = () => {
     <div className="relative w-80 rounded-4xl overflow-hidden shadow-lg mt-[-360px] ml-210">
       <img
         src="src/assets/images/3rd.png"
-        alt="1st-image"
+        alt="3rd-image"
         className="w-80 h-90 object-cover"
       />
       <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/70 to-transparent text-white flex justify-around py-4">
