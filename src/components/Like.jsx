@@ -1,16 +1,12 @@
 import React, { useState } from "react";
 import { FaHeart, FaComment, FaShareAlt } from "react-icons/fa";
-
+import Body from "../assets/images/7th.png"
 const Like = () => {
   const [likes, setLikes] = useState(10);
   const [comments, setComments] = useState(20);
   return (
     <div className="relative w-80 rounded-4xl overflow-hidden shadow-lg ml-25 mt-10">
-      <img
-        src="src/assets/images/7th.png"
-        alt="7th-image"
-        className="w-80 h-90 object-cover"
-      />
+             <img src={Body} alt="3rd-image" className="h-90 w-80 object-cover" />
       <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/70 to-transparent text-white flex justify-around py-4">
         <button
           onClick={() => setLikes(likes + 1)}

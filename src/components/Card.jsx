@@ -1,22 +1,18 @@
 import React, { useState } from "react";
 import { FaHeart, FaComment, FaShareAlt } from "react-icons/fa";
-
+import Print from "../assets/images/5th.png";
 const Card = () => {
   const [likes, setLikes] = useState(10);
   const [comments, setComments] = useState(20);
   return (
     <div className="relative w-80 rounded-4xl overflow-hidden shadow-lg mt-[-360px] ml-120">
-      <img
-        src="src/assets/images/5th.png"
-        alt="5th-image"
-        className="w-80 h-90 object-cover"
-      />
+      <img src={Print} alt="3rd-image" className="h-90 w-80 object-cover" />
       <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/70 to-transparent text-white flex justify-around py-4">
         <button
           onClick={() => setLikes(likes + 1)}
           className="flex items-center space-x-1 cursor-pointer"
         >
-          <FaHeart className="text-white"/>
+          <FaHeart className="text-white" />
           <span>{likes}</span>
         </button>
         <button
